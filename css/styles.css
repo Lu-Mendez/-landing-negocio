@@ -92,7 +92,6 @@ body {
   .conteiner__img{
     max-width:400px;
     flex: 1;
-    background-image: url("./img/banner.png");
 
 
   }
@@ -102,6 +101,7 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
   }
   .imgpic{
+    background-image: url('/img/banner.png');
     width: 100%;
     border-radius: 20px;
   }
@@ -128,8 +128,8 @@ grid-row-gap: 0px;
 }
 
 .container-grid div img {
-width: 100px;
-height: 100px;
+width: 200px;
+height: 200px;
 position: relative;
 margin:10px auto;
 display:block;
