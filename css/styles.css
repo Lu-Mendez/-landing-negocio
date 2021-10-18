@@ -301,4 +301,121 @@ footer {
 }
 
 
+@media screen and (max-width: 700px) {
+  .header {
+    height: 15%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header{ 
+    padding: 2em 0em;
+    background: rgb(102,18,69);
+    background: linear-gradient(90deg, rgba(102,18,69,1) 11%, rgba(151,89,173,1) 86%);
+  }
+  
+
+  .conteiner_contexto{
+    height: 85%;
+    flex-direction: column;
+  }
+
+  .conteiner__img{
+    order: 1;
+
+  }
+  
+.container-grid{
+  padding: 4%;
+  margin:auto;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 0fr 1 fr;
+grid-column-gap:15px;
+grid-row-gap: 0px; 
+}
+
+.container-grid div img {
+width: 120px;
+height: 120px;
+position: relative;
+margin:15px auto;
+display:block;
+border-radius: 15px;
+}
+.copy{
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: justify;
+  font-size: 12px;;
+
+}
+
+
+.caja {
+  position: relative;
+  background-image: url('/img/ice.jpg');
+  margin-top: -1px;
+  height:400px;
+
+}
+
+.caja h1 {
+  margin-left: 25px;
+border-top: 15px;
+  color: #fff;
+  z-index: 8;
+}
+
+.caja .resena {
+  margin-top: 10%;
+  width: 70%;
+  display: -ms-grid;
+  display: grid;
+}
+
+.caja .resena p a {
+  color: #0b0d18;
+  font-weight: bold;
+  display: block;
+  margin: 10% 0;
+  width: 50%;
+  padding: 5% 5% 5% 5%;
+  border-radius: 1000px;
+  text-align: center;
+  background-color: white;
+  text-decoration: none;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
+p.text{
+  font-family: 'Montserrat', sans-serif;
+  font-size:15px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+
+ 
+ }
+ h1.title {
+  font-family: 'Exo 2', sans-serif;
+  max-width: 100vw;
+  overflow-x: hidden;
+  color: #9e9e9e;
+  font-weight:200;
+  margin-left: 15px;
+  flex-direction: column;
+
+  
+
+}
+ 
+
+
+}
+
+
 
